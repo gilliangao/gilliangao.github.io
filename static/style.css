@@ -260,6 +260,17 @@ h1 span {
   padding: clamp(1.1rem, 3vw, 1.7rem);
 }
 
+.hero-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: 50% 42%;
+  border-radius: var(--radius);
+  margin-bottom: 1.15rem;
+  border: 1px solid var(--line);
+}
+
 .panel-header {
   display: flex;
   justify-content: space-between;

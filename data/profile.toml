@@ -10,6 +10,8 @@ email = "gxr.gao@gmail.com"
 linkedin = "https://www.linkedin.com/in/gillian-gao-056b23107/"
 github = "https://github.com/gilliangao"
 cv_path = "assets/cv/Gillian-Gao-CV.pdf"
+photo_path = "assets/images/gillian-gao-lab.jpg"
+photo_alt = "Dr Xingran Gao in a laboratory wearing a white lab coat, with microscopes and research equipment nearby."
 
 [site]
 title = "Climate, Nature & ESG Risk"
