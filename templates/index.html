@@ -1,0 +1,193 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero section" id="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="availability">{{ profile.identity.work_eligibility }}</p>
+      <h1>{{ profile.identity.display_name }} <span>{{ profile.identity.post_nominals }}</span></h1>
+      <p class="lede">{{ profile.identity.hero_line }}</p>
+      <div class="hero-meta" aria-label="Location">
+        <span>{{ profile.identity.location }}</span>
+      </div>
+      <div class="actions" aria-label="Primary links">
+        <a class="button primary" href="mailto:{{ profile.identity.email }}">Email</a>
+        <a class="button" href="{{ profile.identity.linkedin }}">LinkedIn</a>
+        <a class="button" href="{{ profile.identity.github }}">GitHub</a>
+        <a class="button accent" href="{{ profile.identity.cv_path }}">Download CV</a>
+      </div>
+    </div>
+    <aside class="hero-panel" aria-label="Portfolio highlights">
+      <div class="panel-header">
+        <span>Climate risk profile</span>
+        <span>Cambridge, UK</span>
+      </div>
+      <div class="signal-chart" aria-hidden="true">
+        {% for item in profile.landscape %}
+          <div style="--w: {{ item.weight * 3 }}%">
+            <span>{{ item.theme }}</span>
+          </div>
+        {% endfor %}
+      </div>
+      <dl class="hero-stats">
+        {% for metric in profile.metrics[:3] %}
+          <div>
+            <dt>{{ metric.value }}</dt>
+            <dd>{{ metric.description }}</dd>
+          </div>
+        {% endfor %}
+      </dl>
+    </aside>
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <div class="section-heading">
+    <p>{{ profile.sections.about.label }}</p>
+    <h2>{{ profile.sections.about.heading }}</h2>
+  </div>
+  <div class="about-text">
+    {% for paragraph in profile.about %}
+      <p>{{ paragraph }}</p>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="metric-band section" aria-labelledby="metrics-title">
+  <div class="section-heading compact">
+    <p id="metrics-title">{{ profile.sections.metrics.label }}</p>
+  </div>
+  <div class="metrics">
+    {% for metric in profile.metrics %}
+      <article class="metric">
+        <strong data-counter="{{ metric.value }}">{{ metric.value }}</strong>
+        <span>{{ metric.label }}</span>
+        <p>{{ metric.description }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="section-heading">
+    <p>{{ profile.sections.projects.label }}</p>
+    <h2>{{ profile.sections.projects.heading }}</h2>
+  </div>
+  <div class="projects">
+    {% for project in profile.projects %}
+      <article class="project-card">
+        <div>
+          <p class="project-org">{{ project.organisation }}</p>
+          <h3>{{ project.title }}</h3>
+          <p><strong>Context:</strong> {{ project.context }}</p>
+          <p><strong>Role:</strong> {{ project.role }}</p>
+        </div>
+        <div class="tags" aria-label="Tools and methods">
+          {% for tool in project.tools %}
+            <span>{{ tool }}</span>
+          {% endfor %}
+        </div>
+        <p class="result"><strong>Result:</strong> {{ project.result }}
+          {% if project.repo %}
+            <a href="{{ project.repo }}">Repo</a>
+          {% endif %}
+        </p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section chart-section" id="timeline">
+  <div class="section-heading">
+    <p>{{ profile.sections.timeline.label }}</p>
+    <h2>{{ profile.sections.timeline.heading }}</h2>
+  </div>
+  <figure class="chart-card">
+    {{ charts.timeline | safe }}
+    <figcaption>{{ profile.sections.timeline.caption }}</figcaption>
+  </figure>
+</section>
+
+<section class="section chart-section" id="landscape">
+  <div class="section-heading">
+    <p>{{ profile.sections.landscape.label }}</p>
+    <h2>{{ profile.sections.landscape.heading }}</h2>
+  </div>
+  <figure class="chart-card">
+    {{ charts.landscape | safe }}
+    <figcaption>{{ profile.sections.landscape.caption }}</figcaption>
+  </figure>
+</section>
+
+<section class="section chart-section" id="map">
+  <div class="section-heading">
+    <p>{{ profile.sections.map.label }}</p>
+    <h2>{{ profile.sections.map.heading }}</h2>
+  </div>
+  <figure class="chart-card">
+    {{ charts.map | safe }}
+    <figcaption>{{ profile.sections.map.caption }}</figcaption>
+  </figure>
+</section>
+
+<section class="section" id="skills">
+  <div class="section-heading">
+    <p>{{ profile.sections.skills.label }}</p>
+    <h2>{{ profile.sections.skills.heading }}</h2>
+  </div>
+  <div class="skill-groups">
+    {% for group in profile.skills %}
+      <section class="skill-group" aria-labelledby="skill-{{ loop.index }}">
+        <h3 id="skill-{{ loop.index }}">{{ group.category }}</h3>
+        <div class="tags">
+          {% for item in group["items"] %}
+            <span>{{ item }}</span>
+          {% endfor %}
+        </div>
+      </section>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section credentials" id="credentials">
+  <div class="section-heading">
+    <p>{{ profile.sections.credentials.label }}</p>
+    <h2>{{ profile.sections.credentials.heading }}</h2>
+  </div>
+  <div class="credential-list">
+    {% for item in profile.credentials %}
+      <article>
+        <h3>{{ item.title }}</h3>
+        {% if item.status %}<span>{{ item.status }}</span>{% endif %}
+        <p>{{ item.detail }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section recognition" id="recognition">
+  <div class="section-heading">
+    <p>{{ profile.sections.recognition.label }}</p>
+    <h2>{{ profile.sections.recognition.heading }}</h2>
+  </div>
+  <ul class="recognition-list">
+    {% for item in profile.recognition %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="contact-inner">
+    <div>
+      <p>{{ profile.sections.contact.label }}</p>
+      <h2>{{ profile.sections.contact.heading }}</h2>
+    </div>
+    <div class="actions">
+      <a class="button primary" href="mailto:{{ profile.identity.email }}">{{ profile.identity.email }}</a>
+      <a class="button" href="{{ profile.identity.linkedin }}">LinkedIn</a>
+      <a class="button" href="{{ profile.identity.github }}">GitHub</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

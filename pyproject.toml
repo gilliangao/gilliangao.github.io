@@ -1,0 +1,13 @@
+[project]
+name = "gillian-gao-portfolio"
+version = "0.1.0"
+description = "Static portfolio website for Dr Xingran Gao"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "jinja2>=3.1.6",
+  "plotly>=6.1.1",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,319 @@
+[identity]
+name = "Dr Xingran Gao"
+preferred_name = "Gillian"
+display_name = "Dr Xingran \"Gillian\" Gao"
+post_nominals = "Dr · CSci · CEnv · MIMMM"
+hero_line = "Environmental scientist and risk analyst (Cambridge PhD, Chartered Scientist) specialising in climate, nature, ESG and water risk — combining quantitative modelling and data science with regulatory, decision-focused consulting."
+location = "Cambridge, UK"
+work_eligibility = "UK — Indefinite Leave to Remain; no visa sponsorship required"
+email = "gxr.gao@gmail.com"
+linkedin = "https://www.linkedin.com/in/gillian-gao-056b23107/"
+github = "https://github.com/gilliangao"
+cv_path = "assets/cv/Gillian-Gao-CV.pdf"
+
+[site]
+title = "Climate, Nature & ESG Risk"
+footer_note = "Built as a static, data-driven portfolio."
+
+[nav]
+about = "About"
+projects = "Projects"
+timeline = "Timeline"
+skills = "Skills"
+contact = "Contact"
+
+[sections.about]
+label = "About"
+heading = "Quantitative environmental science for decision-ready climate and nature risk."
+
+[sections.metrics]
+label = "Impact in numbers"
+
+[sections.projects]
+label = "Selected projects"
+heading = "Flagship work across climate adaptation, ESG risk, water modelling and applied AI."
+
+[sections.timeline]
+label = "Career & education timeline"
+heading = "Experience and education mapped as an interactive timeline."
+caption = "Timeline of roles and degrees. Hover each bar for dates and role detail."
+
+[sections.landscape]
+label = "Project landscape"
+heading = "Recent work spans climate, nature, water, geospatial modelling and emerging AI."
+caption = "Relative emphasis across recent work themes; values indicate emphasis, not exact percentages."
+
+[sections.map]
+label = "UK project map"
+heading = "Selected project locations across Cambridge, the Fens, Wales, North East England and the Severn."
+caption = "Approximate UK locations of selected work from the supplied coordinates."
+
+[sections.skills]
+label = "Skills"
+heading = "Technical depth paired with regulatory and consulting delivery."
+
+[sections.credentials]
+label = "Credentials & education"
+heading = "Chartered environmental and scientific credentials, with CEng correctly shown as in progress."
+
+[sections.recognition]
+label = "Recognition"
+heading = "Awards, patents and specialist research training."
+
+[sections.contact]
+label = "Contact"
+heading = "Open to roles in climate/ESG risk, climate data science and sustainability consulting."
+
+about = [
+  "I am an environmental scientist and risk analyst based in Cambridge. I hold a PhD in Environmental Science from the University of Cambridge, where I combined machine learning with atmospheric physics to study urban climate, processing more than 30 TB of spatiotemporal data across high-performance and cloud computing.",
+  "I now work at Risilience as a Risk Analyst, building quantitative models of climate, nature and water risk for clients across multiple sectors — from composite environmental indicators to global water-stress datasets and supply-chain scenario analysis, aligned to TCFD and TNFD. Alongside this I lead a part-time Cambridge research project building a 3D geospatial \"digital twin\" of Fenland peatland for the Environment Agency and Defra.",
+  "My background bridges technical modelling and decision-focused consulting: a year at Arup delivering regulatory water and flood-risk work, a Chartered Scientist and Chartered Environmentalist, and a consistent focus on turning complex environmental data into evidence people can act on.",
+]
+
+[[metrics]]
+value = "30+"
+label = "TB"
+description = "climate & environmental data processed across HPC and cloud"
+
+[[metrics]]
+value = "31:1"
+label = "BCR"
+description = "benefit-cost ratio on a £1M flood scheme protecting 579 homes"
+
+[[metrics]]
+value = "16"
+label = "models"
+description = "member WRF climate-model ensemble designed and run for PhD research"
+
+[[metrics]]
+value = "3"
+label = "patents"
+description = "Chinese invention patents in wastewater treatment (first inventor)"
+
+[[metrics]]
+value = "2nd"
+label = "place"
+description = "Cambridge Multi-Agent Systems for Scientific Research Hackathon"
+
+[[projects]]
+title = "Fens Peatland Digital Twin"
+organisation = "University of Cambridge"
+context = "climate adaptation and sustainable land management in the Fens."
+role = "project lead (Research Associate)."
+tools = ["Tygron 3D geospatial platform", "hydrological modelling", "sensitivity analysis", "stakeholder engagement"]
+result = "built a peatland digital twin linking water-table depth to CO2/CH4 emissions and land stability under climate scenarios; presented decision-ready outputs to the Environment Agency and Defra, feeding into expansion and funding discussions."
+
+[[projects]]
+title = "Global Water-Stress & Nature-Risk Models"
+organisation = "Risilience"
+context = "clients need consistent, transparent measures of climate and nature risk across sectors."
+role = "risk analyst / model owner."
+tools = ["Google Earth Engine", "BigQuery", "Python", "geospatial pipelines", "composite indicators"]
+result = "built and managed large-scale global water-stress datasets and developed an Ecosystem Integrity Index converting complex datasets into consistent, decision-ready risk layers, aligned to TCFD and TNFD."
+
+[[projects]]
+title = "Welsh Water — SOAF Water-Quality Tool"
+organisation = "Arup"
+context = "Welsh Water needed auditable evidence on combined sewer-overflow impacts for regulatory investment planning."
+role = "consultant, water & environmental modelling."
+tools = ["Python", "time-series analysis", "probabilistic river scenarios", "pollutant decay/mixing models"]
+result = "delivered a Python water-quality tool aligned with SOAF and UPM, implementing 99th-percentile and Fundamental Intermittent Standards logic for regulator-ready decision support."
+
+[[projects]]
+title = "Northumbrian Water — AMMA Regulatory Review (PR24)"
+organisation = "Arup"
+context = "Northumbrian Water needed to demonstrate asset-management maturity for its PR24 submission to Ofwat."
+role = "co-author, independent review."
+tools = ["scoring matrix", "Ofwat framework", "ISO 55001 / SAMP"]
+result = "identified maturity gaps and delivered evidence-based investment recommendations supporting the regulatory submission."
+
+[[projects]]
+title = "Flood-Risk Investment Case (FCERM)"
+organisation = "Arup"
+context = "an Internal Drainage Board pumping-station scheme needed an Outline Business Case to justify multi-million-pound investment."
+role = "appraisal contributor."
+tools = ["FCERM cost-benefit analysis", "option appraisal", "risk assessment"]
+result = "demonstrated a £1M investment protecting 579 homes and 1,888 ha of land at a 31:1 benefit-cost ratio, supporting the funding decision."
+
+[[projects]]
+title = "Multi-Agent AI System for Urban Applications"
+organisation = "Cambridge Hackathon"
+context = "a one-day hackathon on multi-agent AI for scientific research."
+role = "team member."
+tools = ["LangGraph", "AG2", "multi-agent orchestration"]
+result = "built a working multi-agent AI system for urban applications; placed 2nd of all competing teams."
+repo = "https://github.com/gilliangao/multi-agent_urban"
+
+[[timeline]]
+kind = "Experience"
+name = "Risilience — Risk Analyst (Climate & Nature Risk)"
+start = "2024-06-01"
+end = "2026-05-24"
+date_label = "Jun 2024 – Present"
+detail = "Quantitative climate, nature and water risk modelling for multi-sector clients."
+
+[[timeline]]
+kind = "Experience"
+name = "University of Cambridge — Research Associate (part-time)"
+start = "2026-01-01"
+end = "2026-05-24"
+date_label = "Jan 2026 – Present"
+detail = "Leads a Tygron 3D geospatial peatland digital-twin project."
+
+[[timeline]]
+kind = "Experience"
+name = "Arup — Consultant, Water & Environmental Modelling"
+start = "2023-06-01"
+end = "2024-06-01"
+date_label = "Jun 2023 – Jun 2024"
+detail = "Regulatory water modelling, flood-risk appraisal, asset-management review."
+
+[[timeline]]
+kind = "Experience"
+name = "Cambridge Consulting Network — Engagement Manager"
+start = "2020-10-01"
+end = "2021-06-01"
+date_label = "Oct 2020 – Jun 2021"
+detail = "Led client consulting projects and structured research."
+
+[[timeline]]
+kind = "Education"
+name = "PhD, Environmental Science — University of Cambridge"
+start = "2018-10-01"
+end = "2023-05-01"
+date_label = "Oct 2018 – May 2023"
+detail = "Machine learning + atmospheric physics; urban climate (LoHCool programme)."
+
+[[timeline]]
+kind = "Education"
+name = "MSc, Environmental Engineering — Imperial College London"
+start = "2017-09-01"
+end = "2018-09-01"
+date_label = "2017 – 2018"
+detail = "GPA 3.6/4.0; water demand analysis, wastewater & landfill design."
+
+[[timeline]]
+kind = "Education"
+name = "BSc (Hons), Environmental Science — University of Manchester"
+start = "2015-09-01"
+end = "2017-06-01"
+date_label = "2015 – 2017"
+detail = "First Class Honours, GPA 3.8/4.0."
+
+[[timeline]]
+kind = "Education"
+name = "BSc (Hons), Atmospheric Science — Nanjing University of Information Science and Technology"
+start = "2012-09-01"
+end = "2015-06-01"
+date_label = "2012 – 2015"
+detail = "First Class Honours."
+
+[[landscape]]
+theme = "Climate & ESG risk"
+weight = 30
+
+[[landscape]]
+theme = "Nature & biodiversity risk"
+weight = 20
+
+[[landscape]]
+theme = "Water & flood modelling"
+weight = 25
+
+[[landscape]]
+theme = "Data science & geospatial modelling"
+weight = 20
+
+[[landscape]]
+theme = "Applied AI / multi-agent systems"
+weight = 5
+
+[[map_points]]
+name = "Cambridge"
+description = "Risilience / University of Cambridge"
+lat = 52.20
+lon = 0.12
+
+[[map_points]]
+name = "The Fens / Ely"
+description = "peatland digital twin"
+lat = 52.40
+lon = 0.26
+
+[[map_points]]
+name = "Wales"
+description = "Welsh Water — SOAF tool"
+lat = 52.13
+lon = -3.78
+
+[[map_points]]
+name = "North East England"
+description = "Northumbrian Water — AMMA"
+lat = 54.97
+lon = -1.61
+
+[[map_points]]
+name = "River Severn / Lower Severn"
+description = "flood-risk OBC"
+lat = 51.99
+lon = -2.16
+
+[[skills]]
+category = "Programming & data"
+items = ["Python (pandas, numpy)", "MATLAB", "SQL-style querying", "Google Earth Engine", "BigQuery", "Power BI", "Excel", "API integration", "reproducible HPC & cloud (AWS / GCP) workflows"]
+
+[[skills]]
+category = "Modelling & analysis"
+items = ["Quantitative environmental risk modelling", "geospatial analysis (QGIS, Tygron)", "hydrological & water-quality modelling (SOAF, UPM)", "climate modelling (WRF ensembles)", "machine learning", "statistical analysis", "scenario & sensitivity analysis", "cost-benefit analysis"]
+
+[[skills]]
+category = "AI & emerging tools"
+items = ["Multi-agent systems (LangGraph, AG2)", "LLM-based agent orchestration", "agent tracing & observability concepts"]
+
+[[skills]]
+category = "Domain expertise"
+items = ["Climate risk (physical & transition)", "nature & biodiversity risk", "ESG", "water quality & flood risk", "asset management", "natural capital", "decarbonisation pathways", "environmental impact assessment"]
+
+[[skills]]
+category = "Frameworks & regulation"
+items = ["TCFD", "TNFD", "CSRD", "Ofwat / PR24", "AMMA", "ISO 55001 / SAMP", "SOAF", "UPM", "WFD", "FCERM", "CRREM", "EU Taxonomy", "Environment Agency guidance"]
+
+[[skills]]
+category = "Professional"
+items = ["Project management & delivery (scope, budget, QA)", "stakeholder & regulatory engagement", "multidisciplinary coordination", "technical reporting", "presenting to senior stakeholders", "mentoring"]
+
+[[credentials]]
+title = "Chartered Scientist (CSci)"
+detail = "awarded 2026 (IOM3 / Science Council)."
+
+[[credentials]]
+title = "Chartered Environmentalist (CEnv)"
+detail = "awarded 2026 (IOM3 / Society for the Environment)."
+
+[[credentials]]
+title = "Chartered Engineer (CEng)"
+detail = "application in progress (IOM3 Technical Report Route)."
+status = "In progress"
+
+[[credentials]]
+title = "MIMMM"
+detail = "Member of the Institute of Materials, Minerals and Mining (IOM3)."
+
+[[credentials]]
+title = "Memberships"
+detail = "CIWEM, CIWM."
+
+recognition = [
+  "2nd place — Multi-Agent Systems for Scientific Research Hackathon, University of Cambridge, 11 May 2026.",
+  "Chartered Scientist and Chartered Environmentalist, 2026.",
+  "Three Chinese invention patents, first inventor (wastewater treatment): CN113149210A, CN114856454A, CN114956352A.",
+  "First Class Honours — BSc Environmental Science (Manchester) and BSc Atmospheric Science (Nanjing).",
+  "First Class Scholarship 2015–2017; Excellent Graduate Thesis 2017 (Manchester).",
+  "Two-week specialist training at the European Centre for Medium-Range Weather Forecasts (ECMWF).",
+]
+
+publications_research = [
+  "Low Carbon Climate-Responsive Heating and Cooling of Cities (LoHCool)",
+  "Making Safer Emergency Hospitals",
+  "Examining the Influence of Aerosols from Air Pollution on Current and Projected Temperatures in the Urban Area",
+]
