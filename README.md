@@ -89,7 +89,7 @@ Then push with:
 git push -u origin main
 ```
 
-## Before Sharing With Interviewers
+## Before Sharing Publicly
 
 1. Confirm the repository is public.
 2. Confirm GitHub Pages is enabled: Settings -> Pages -> Source: GitHub Actions.
