@@ -3,7 +3,7 @@ name = "Dr Xingran Gao"
 preferred_name = "Gillian"
 display_name = "Dr Xingran \"Gillian\" Gao"
 post_nominals = "Dr · CSci · CEnv · MIMMM"
-hero_line = "Environmental scientist and risk analyst (Cambridge PhD, Chartered Scientist) specialising in climate, nature, ESG and water risk — combining quantitative modelling and data science with regulatory, decision-focused consulting."
+hero_line = "Environmental scientist and risk analyst with a Cambridge PhD, chartered credentials, and a track record delivering decision-ready climate, nature and water risk solutions."
 location = "Cambridge, UK"
 work_eligibility = "UK — Indefinite Leave to Remain; no visa sponsorship required"
 email = "gxr.gao@gmail.com"
@@ -15,7 +15,7 @@ photo_alt = "Dr Xingran Gao in a laboratory wearing a white lab coat, with micro
 
 [site]
 title = "Climate, Nature & ESG Risk"
-footer_note = "Built as a static, data-driven portfolio."
+footer_note = "Built as a portfolio for recruiter and interviewer review."
 
 [nav]
 about = "About"
@@ -26,23 +26,23 @@ contact = "Contact"
 
 [sections.about]
 label = "About"
-heading = "Quantitative environmental science for decision-ready climate and nature risk."
+heading = "Decision-ready climate, nature and water risk for business and policy."
 
 [sections.metrics]
 label = "Impact in numbers"
 
 [sections.projects]
 label = "Selected projects"
-heading = "Flagship work across climate adaptation, ESG risk, water modelling and applied AI."
+heading = "Selected projects delivering measurable risk, resilience and regulatory outcomes."
 
 [sections.timeline]
 label = "Career & education timeline"
-heading = "Experience and education mapped as an interactive timeline."
-caption = "Timeline of roles and degrees. Hover each bar for dates and role detail."
+heading = "Experience and education for climate risk, ESG and water delivery."
+caption = "Timeline of roles and qualifications. Hover each bar for dates and role detail."
 
 [sections.landscape]
 label = "Project landscape"
-heading = "Recent work spans climate, nature, water, geospatial modelling and emerging AI."
+heading = "Recent work spans climate, nature, water, geospatial modelling and decision support."
 caption = "Relative emphasis across recent work themes; values indicate emphasis, not exact percentages."
 
 [sections.map]
@@ -52,24 +52,24 @@ caption = "Approximate UK locations of selected work from the supplied coordinat
 
 [sections.skills]
 label = "Skills"
-heading = "Technical depth paired with regulatory and consulting delivery."
+heading = "Strengths in risk modelling, regulatory delivery and stakeholder-facing consulting."
 
 [sections.credentials]
 label = "Credentials & education"
-heading = "Chartered environmental and scientific credentials, with CEng correctly shown as in progress."
+heading = "Chartered credentials and professional qualifications for climate and environment roles."
 
 [sections.recognition]
 label = "Recognition"
-heading = "Awards, patents and specialist research training."
+heading = "Recognition, patents and specialist training."
 
 [sections.contact]
 label = "Contact"
-heading = "Open to roles in climate/ESG risk, climate data science and sustainability consulting."
+heading = "Open to roles in climate risk, ESG, sustainability consulting and environmental analytics."
 
 about = [
-  "I am an environmental scientist and risk analyst based in Cambridge. I hold a PhD in Environmental Science from the University of Cambridge, where I combined machine learning with atmospheric physics to study urban climate, processing more than 30 TB of spatiotemporal data across high-performance and cloud computing.",
-  "I now work at Risilience as a Risk Analyst, building quantitative models of climate, nature and water risk for clients across multiple sectors — from composite environmental indicators to global water-stress datasets and supply-chain scenario analysis, aligned to TCFD and TNFD. Alongside this I lead a part-time Cambridge research project building a 3D geospatial \"digital twin\" of Fenland peatland for the Environment Agency and Defra.",
-  "My background bridges technical modelling and decision-focused consulting: a year at Arup delivering regulatory water and flood-risk work, a Chartered Scientist and Chartered Environmentalist, and a consistent focus on turning complex environmental data into evidence people can act on.",
+  "I am an environmental scientist and risk analyst based in Cambridge, with a PhD from the University of Cambridge and chartered professional status. I turn complex climate, nature and water data into evidence and recommendations that support planning, policy and investment decisions.",
+  "At Risilience I build quantitative models and risk indicators that help clients manage climate, nature and water risk consistently across sectors, aligned to TCFD and TNFD. As a Research Associate I lead a 3D peatland digital twin project that informs Environment Agency and Defra decisions on land management, carbon and resilience.",
+  "Previously at Arup I delivered regulatory water-quality tools, flood-risk appraisal and asset-management review, always focusing on practical, regulator-ready outputs that support funding, compliance and business decisions."
 ]
 
 [[metrics]]
@@ -103,7 +103,7 @@ organisation = "University of Cambridge"
 context = "climate adaptation and sustainable land management in the Fens."
 role = "project lead (Research Associate)."
 tools = ["Tygron 3D geospatial platform", "hydrological modelling", "sensitivity analysis", "stakeholder engagement"]
-result = "built a peatland digital twin linking water-table depth to CO2/CH4 emissions and land stability under climate scenarios; presented decision-ready outputs to the Environment Agency and Defra, feeding into expansion and funding discussions."
+result = "built a peatland digital twin that links water-table and greenhouse gas outcomes to land management recommendations; presented decision-ready outputs to the Environment Agency and Defra, informing funding and adaptation planning."
 
 [[projects]]
 title = "Global Water-Stress & Nature-Risk Models"
@@ -111,7 +111,7 @@ organisation = "Risilience"
 context = "clients need consistent, transparent measures of climate and nature risk across sectors."
 role = "risk analyst / model owner."
 tools = ["Google Earth Engine", "BigQuery", "Python", "geospatial pipelines", "composite indicators"]
-result = "built and managed large-scale global water-stress datasets and developed an Ecosystem Integrity Index converting complex datasets into consistent, decision-ready risk layers, aligned to TCFD and TNFD."
+result = "built and managed global water-stress and nature-risk indicators that convert complex data into consistent, decision-ready risk layers for climate and ESG assessments aligned to TCFD and TNFD."
 
 [[projects]]
 title = "Welsh Water — SOAF Water-Quality Tool"
@@ -119,7 +119,7 @@ organisation = "Arup"
 context = "Welsh Water needed auditable evidence on combined sewer-overflow impacts for regulatory investment planning."
 role = "consultant, water & environmental modelling."
 tools = ["Python", "time-series analysis", "probabilistic river scenarios", "pollutant decay/mixing models"]
-result = "delivered a Python water-quality tool aligned with SOAF and UPM, implementing 99th-percentile and Fundamental Intermittent Standards logic for regulator-ready decision support."
+result = "delivered a regulator-ready water-quality assessment tool aligned with SOAF and UPM, supporting Welsh Water's investment planning and environmental compliance."
 
 [[projects]]
 title = "Northumbrian Water — AMMA Regulatory Review (PR24)"
@@ -127,7 +127,7 @@ organisation = "Arup"
 context = "Northumbrian Water needed to demonstrate asset-management maturity for its PR24 submission to Ofwat."
 role = "co-author, independent review."
 tools = ["scoring matrix", "Ofwat framework", "ISO 55001 / SAMP"]
-result = "identified maturity gaps and delivered evidence-based investment recommendations supporting the regulatory submission."
+result = "identified maturity gaps and delivered evidence-based recommendations to support Northumbrian Water's PR24 regulatory submission."
 
 [[projects]]
 title = "Flood-Risk Investment Case (FCERM)"
@@ -135,7 +135,7 @@ organisation = "Arup"
 context = "an Internal Drainage Board pumping-station scheme needed an Outline Business Case to justify multi-million-pound investment."
 role = "appraisal contributor."
 tools = ["FCERM cost-benefit analysis", "option appraisal", "risk assessment"]
-result = "demonstrated a £1M investment protecting 579 homes and 1,888 ha of land at a 31:1 benefit-cost ratio, supporting the funding decision."
+result = "contributed to an Outline Business Case showing a £1M investment protecting 579 homes and 1,888 ha of land at a 31:1 benefit-cost ratio, supporting the funding decision."
 
 [[projects]]
 title = "Multi-Agent AI System for Urban Applications"
@@ -143,7 +143,7 @@ organisation = "Cambridge Hackathon"
 context = "a one-day hackathon on multi-agent AI for scientific research."
 role = "team member."
 tools = ["LangGraph", "AG2", "multi-agent orchestration"]
-result = "built a working multi-agent AI system for urban applications; placed 2nd of all competing teams."
+result = "built a working multi-agent AI prototype for urban applications and placed 2nd among competing teams."
 repo = "https://github.com/gilliangao/multi-agent_urban"
 
 [[timeline]]
