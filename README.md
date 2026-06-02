@@ -2,7 +2,7 @@
 
 **Cambridge PhD · CSci · CEnv · UK — no visa sponsorship required**
 
-[Live portfolio](https://gilliangao.github.io) · [LinkedIn](https://www.linkedin.com/in/gillian-gao-056b23107/) · [GitHub](https://github.com/gilliangao) · [CV (PDF)](https://gilliangao.github.io/assets/cv/Gillian-Gao-CV.pdf)
+[Live portfolio](https://gilliangao.github.io) · [LinkedIn](https://www.linkedin.com/in/dr-gillian-gao/) · [GitHub](https://github.com/gilliangao) · [CV (PDF)](https://gilliangao.github.io/assets/cv/Gillian-Gao-CV.pdf)
 
 ---
 
