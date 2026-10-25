@@ -33,7 +33,7 @@ Environmental scientist and risk analyst with a track record turning complex cli
 
 ## Credentials
 
-CSci and CEnv (both 2026, IOM3/SocEnv) · CEng in progress · MIMMM · CIWEM · CIWM
+CSci and CEnv (both 2026, IOM3/SocEnv) · CEng in progress · MIMMM · CIWEM
 
 ## Open to
 
