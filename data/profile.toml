@@ -1,9 +1,31 @@
+about = [
+  "I am a Cambridge-based environmental scientist and Hydrology Manager at Anglian Water, with a Cambridge PhD and Chartered Scientist and Chartered Environmentalist credentials. I combine quantitative modelling, data science and regulatory experience to support water-resource, climate and nature decisions.",
+  "Since July 2026, I have led Anglian Water's hydrology function within Water Resources & Drought, managing a team of three. My work brings together reservoir storage, river flows, groundwater, rainfall, abstraction, demand and water quality to inform drought response and operational planning.",
+  "I co-lead development of nitrate-managed abstraction procedures and coordinate hydrological evidence for drought-permit applications, working across Hydrology, Water Quality, Operations and Licensing. Procedure approval and permit submissions were in progress as of October 2026.",
+  "Previously at Risilience, I developed climate, nature and water-risk models. My Cambridge research linked peatland water management to greenhouse-gas emissions and land stability; at Arup, I delivered water-quality modelling, flood-risk appraisal and asset-management reviews."
+]
+
+recognition = [
+  "2nd place — Multi-Agent Systems for Scientific Research Hackathon, University of Cambridge, 11 May 2026.",
+  "Chartered Scientist and Chartered Environmentalist, 2026.",
+  "Three Chinese invention patents, first inventor (wastewater treatment): CN113149210A, CN114856454A, CN114956352A.",
+  "First Class Honours — BSc Environmental Science (Manchester) and BSc Atmospheric Science (Nanjing).",
+  "First Class Scholarship 2015–2017; Excellent Graduate Thesis 2017 (Manchester).",
+  "Two-week specialist training at the European Centre for Medium-Range Weather Forecasts (ECMWF).",
+]
+
+publications_research = [
+  "Low Carbon Climate-Responsive Heating and Cooling of Cities (LoHCool)",
+  "Making Safer Emergency Hospitals",
+  "Examining the Influence of Aerosols from Air Pollution on Current and Projected Temperatures in the Urban Area",
+]
+
 [identity]
 name = "Dr Xingran Gao"
 preferred_name = "Gillian"
 display_name = "Dr Xingran \"Gillian\" Gao"
 post_nominals = "Dr · CSci · CEnv · MIMMM"
-hero_line = "Environmental scientist and risk analyst with a Cambridge PhD, chartered credentials, and a track record delivering decision-ready climate, nature and water risk solutions."
+hero_line = "Hydrology Manager at Anglian Water and environmental scientist, combining a Cambridge PhD, chartered credentials and experience in drought management, climate, nature and water risk."
 location = "Cambridge, UK"
 work_eligibility = "UK — Indefinite Leave to Remain; no visa sponsorship required"
 email = "gxr.gao@gmail.com"
@@ -66,11 +88,7 @@ heading = "Recognition, patents and specialist training."
 label = "Contact"
 heading = "Open to roles in climate risk, ESG, sustainability consulting and environmental analytics."
 
-about = [
-  "I am an environmental scientist and risk analyst based in Cambridge, with a PhD from the University of Cambridge and chartered professional status. I turn complex climate, nature and water data into evidence and recommendations that support planning, policy and investment decisions.",
-  "At Risilience I build quantitative models and risk indicators that help clients manage climate, nature and water risk consistently across sectors, aligned to TCFD and TNFD. As a Research Associate I lead a 3D peatland digital twin project that informs Environment Agency and Defra decisions on land management, carbon and resilience.",
-  "Previously at Arup I delivered regulatory water-quality tools, flood-risk appraisal and asset-management review, always focusing on practical, regulator-ready outputs that support funding, compliance and business decisions."
-]
+
 
 [[metrics]]
 value = "30+"
@@ -96,6 +114,14 @@ description = "Chinese invention patents in wastewater treatment (first inventor
 value = "2nd"
 label = "place"
 description = "Cambridge Multi-Agent Systems for Scientific Research Hackathon"
+
+[[projects]]
+title = "Water Resources, Drought & Reservoir Management"
+organisation = "Anglian Water"
+context = "balancing water-resource availability, reservoir refill and water quality during drought response."
+role = "Hydrology Manager, Water Resources & Drought (since 27 July 2026)."
+tools = ["hydrological evidence", "reservoir and rainfall scenarios", "water-quality analysis", "multidisciplinary coordination"]
+result = "leads a team of three; produces integrated water-resource assessments, co-leads development of nitrate-managed abstraction procedures and coordinates evidence for drought-permit applications. Procedure approval and permit submissions were in progress as of October 2026."
 
 [[projects]]
 title = "Fens Peatland Digital Twin"
@@ -148,19 +174,27 @@ repo = "https://github.com/gilliangao/multi-agent_urban"
 
 [[timeline]]
 kind = "Experience"
+name = "Anglian Water — Hydrology Manager, Water Resources & Drought"
+start = "2026-07-27"
+end = "2026-10-25"
+date_label = "27 Jul 2026 – Present"
+detail = "Leads the hydrology team; reservoir and drought assessments, nitrate-management procedure development and drought-permit evidence."
+
+[[timeline]]
+kind = "Experience"
 name = "Risilience — Risk Analyst (Climate & Nature Risk)"
 start = "2024-06-01"
-end = "2026-05-24"
-date_label = "Jun 2024 – Present"
+end = "2026-07-01"
+date_label = "Jun 2024 – Jul 2026"
 detail = "Quantitative climate, nature and water risk modelling for multi-sector clients."
 
 [[timeline]]
 kind = "Experience"
 name = "University of Cambridge — Research Associate (part-time)"
 start = "2026-01-01"
-end = "2026-05-24"
-date_label = "Jan 2026 – Present"
-detail = "Leads a Tygron 3D geospatial peatland digital-twin project."
+end = "2026-06-01"
+date_label = "Jan 2026 – Jun 2026 (paused)"
+detail = "Led a Tygron 3D geospatial peatland digital-twin project; research paused in June 2026."
 
 [[timeline]]
 kind = "Experience"
@@ -232,7 +266,7 @@ weight = 5
 
 [[map_points]]
 name = "Cambridge"
-description = "Risilience / University of Cambridge"
+description = "Anglian Water / previous Risilience and University of Cambridge roles"
 lat = 52.20
 lon = 0.12
 
@@ -305,17 +339,6 @@ detail = "Member of the Institute of Materials, Minerals and Mining (IOM3)."
 title = "Memberships"
 detail = "CIWEM."
 
-recognition = [
-  "2nd place — Multi-Agent Systems for Scientific Research Hackathon, University of Cambridge, 11 May 2026.",
-  "Chartered Scientist and Chartered Environmentalist, 2026.",
-  "Three Chinese invention patents, first inventor (wastewater treatment): CN113149210A, CN114856454A, CN114956352A.",
-  "First Class Honours — BSc Environmental Science (Manchester) and BSc Atmospheric Science (Nanjing).",
-  "First Class Scholarship 2015–2017; Excellent Graduate Thesis 2017 (Manchester).",
-  "Two-week specialist training at the European Centre for Medium-Range Weather Forecasts (ECMWF).",
-]
 
-publications_research = [
-  "Low Carbon Climate-Responsive Heating and Cooling of Cities (LoHCool)",
-  "Making Safer Emergency Hospitals",
-  "Examining the Influence of Aerosols from Air Pollution on Current and Projected Temperatures in the Urban Area",
-]
+
+
