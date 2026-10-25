@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ profile.identity.display_name }} | {{ profile.site.title }}</title>
+    <title>{{ page_title | default(profile.identity.display_name ~ " | " ~ profile.site.title) }}</title>
     <meta name="description" content="{{ profile.identity.hero_line }}">
-    <meta property="og:title" content="{{ profile.identity.display_name }} | {{ profile.site.title }}">
+    <meta property="og:title" content="{{ page_title | default(profile.identity.display_name ~ " | " ~ profile.site.title) }}">
     <meta property="og:description" content="{{ profile.identity.hero_line }}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gilliangao.github.io">
+    <meta property="og:url" content="https://gilliangao.github.io/{{ page_path | default('') }}">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ profile.identity.display_name }} | {{ profile.site.title }}">
+    <meta name="twitter:title" content="{{ page_title | default(profile.identity.display_name ~ " | " ~ profile.site.title) }}">
     <meta name="twitter:description" content="{{ profile.identity.hero_line }}">
     <link rel="icon" href="static/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="static/style.css">
@@ -19,7 +19,7 @@
     <a class="skip-link" href="#main">Skip to main content</a>
     <header class="site-header">
       <nav class="nav" aria-label="Primary navigation">
-        <a class="brand" href="#hero" aria-label="Gillian Gao home">
+        <a class="brand" href="index.html#hero" aria-label="Gillian Gao home">
           <span class="brand-mark">GG</span>
           <span>Gillian Gao</span>
         </a>
@@ -30,11 +30,12 @@
           <span></span>
         </button>
         <div class="nav-links" id="nav-links">
-          <a href="#about">{{ profile.nav.about }}</a>
-          <a href="#projects">{{ profile.nav.projects }}</a>
-          <a href="#timeline">{{ profile.nav.timeline }}</a>
-          <a href="#skills">{{ profile.nav.skills }}</a>
-          <a href="#contact">{{ profile.nav.contact }}</a>
+          <a href="index.html#about">{{ profile.nav.about }}</a>
+          <a href="index.html#projects">{{ profile.nav.projects }}</a>
+          <a href="index.html#timeline">{{ profile.nav.timeline }}</a>
+          <a href="index.html#skills">{{ profile.nav.skills }}</a>
+          <a href="services.html"{% if page_path | default('') == 'services.html' %} aria-current="page"{% endif %}>Services</a>
+          <a href="index.html#contact">{{ profile.nav.contact }}</a>
         </div>
       </nav>
     </header>

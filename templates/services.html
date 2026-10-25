@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section" aria-labelledby="services-title">
+  <p class="availability">Consulting services</p>
+  <h1 id="services-title">Services</h1>
+  <p class="lede">Climate, nature and water risk analysis that turns complex environmental data into practical decisions.</p>
+  <p class="hero-meta">Dr Xingran “Gillian” Gao · Cambridge, UK</p>
+  <div class="actions">
+    <a class="button primary" href="mailto:{{ profile.identity.email }}?subject=Consulting%20enquiry">Discuss a project</a>
+    <a class="button" href="index.html#projects">View selected projects</a>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="expertise-title">
+  <div class="section-heading">
+    <p>Areas of support</p>
+    <h2 id="expertise-title">Rigorous analysis. Clear recommendations.</h2>
+  </div>
+  <div class="projects">
+    <article class="project-card">
+      <div>
+        <p class="project-org">01 / Climate</p>
+        <h3>Climate risk &amp; resilience</h3>
+        <p>Assess physical climate hazards and explore how changing conditions could affect assets, operations and places.</p>
+        <p><strong>Support includes:</strong> climate-data analysis, scenario and sensitivity analysis, risk indicators and adaptation evidence.</p>
+        <p><strong>Outputs:</strong> transparent models, risk summaries and recommendations for planning and decision-making.</p>
+      </div>
+      <div class="tags"><span>Climate modelling</span><span>Scenario analysis</span><span>Risk indicators</span></div>
+    </article>
+    <article class="project-card">
+      <div>
+        <p class="project-org">02 / Nature</p>
+        <h3>Nature &amp; biodiversity risk</h3>
+        <p>Use environmental and location data to understand nature-related dependencies, pressures and risks.</p>
+        <p><strong>Support includes:</strong> geospatial screening, indicator development and analysis to inform TNFD-aligned assessments.</p>
+        <p><strong>Outputs:</strong> documented risk layers, prioritisation insights and accessible technical reporting.</p>
+      </div>
+      <div class="tags"><span>Nature risk</span><span>Geospatial screening</span><span>TNFD</span></div>
+    </article>
+    <article class="project-card">
+      <div>
+        <p class="project-org">03 / Water</p>
+        <h3>Water risk &amp; environmental modelling</h3>
+        <p>Translate water-stress, water-quality and flood-risk evidence into practical options for management and investment.</p>
+        <p><strong>Support includes:</strong> hydrological and water-quality analysis, flood-risk option appraisal and cost-benefit assessment.</p>
+        <p><strong>Outputs:</strong> analytical tools, scenario comparisons and evidence to support regulatory and investment discussions.</p>
+      </div>
+      <div class="tags"><span>Water quality</span><span>Flood risk</span><span>Option appraisal</span></div>
+    </article>
+    <article class="project-card">
+      <div>
+        <p class="project-org">04 / Data</p>
+        <h3>Environmental data &amp; geospatial analytics</h3>
+        <p>Build reproducible workflows that make complex climate and environmental datasets useful to your team.</p>
+        <p><strong>Support includes:</strong> data preparation, spatial analysis, Python workflows, model development and visualisation.</p>
+        <p><strong>Outputs:</strong> reusable analytical pipelines, maps, documented methods and decision-ready findings.</p>
+      </div>
+      <div class="tags"><span>Python</span><span>Google Earth Engine</span><span>BigQuery</span><span>QGIS</span></div>
+    </article>
+  </div>
+</section>
+
+<section class="section about" aria-labelledby="approach-title">
+  <div class="section-heading">
+    <p>Working together</p>
+    <h2 id="approach-title">Start with the decision you need to make.</h2>
+  </div>
+  <ol class="recognition-list">
+    <li><strong>Define the question.</strong> Discuss your objectives, available data, intended audience and timescale.</li>
+    <li><strong>Agree the scope.</strong> Set out methods, deliverables and assumptions for the project.</li>
+    <li><strong>Analyse and explain.</strong> Develop the evidence, communicate uncertainty and present practical next steps.</li>
+  </ol>
+</section>
+
+<section class="section contact" aria-labelledby="enquiry-title">
+  <div class="contact-inner">
+    <div>
+      <p>Project enquiries</p>
+      <h2 id="enquiry-title">Let’s discuss your environmental challenge.</h2>
+      <p>Share a short outline of your project, the support you need and your preferred timescale.</p>
+    </div>
+    <div class="actions">
+      <a class="button primary" href="mailto:{{ profile.identity.email }}?subject=Consulting%20enquiry">Email Gillian</a>
+      <a class="button" href="{{ profile.identity.linkedin }}">LinkedIn</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

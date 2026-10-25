@@ -39,9 +39,13 @@ def main() -> None:
         loader=FileSystemLoader(ROOT / "templates"),
         autoescape=select_autoescape(["html", "xml"]),
     )
-    template = env.get_template("index.html")
-    html = template.render(profile=profile, charts=charts, year=date.today().year)
-    (DIST / "index.html").write_text(html, encoding="utf-8")
+    for page in ("index.html", "services.html"):
+        template = env.get_template(page)
+        context = dict(profile=profile, charts=charts, year=date.today().year, page_path=page)
+        if page == "services.html":
+            context["page_title"] = f"Services | {profile['identity']['display_name']}"
+        html = template.render(**context)
+        (DIST / page).write_text(html, encoding="utf-8")
 
     copy_tree(ROOT / "static", DIST / "static")
     copy_tree(ROOT / "assets", DIST / "assets")
